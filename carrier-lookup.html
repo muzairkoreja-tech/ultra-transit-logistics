@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MC / DOT Number Lookup — FMCSA Carrier Search | Ultra Transit Logistics</title>
+<meta name="description" content="Look up any U.S. motor carrier by USDOT or MC number on the official FMCSA SAFER system — operating status, authority, insurance and safety data.">
+<link rel="icon" href="assets/logo.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="topbar"><div class="container"><div class="tb"><a href="tel:+923344550042">📞 +92 334 4550042</a><a href="mailto:infoutldispatch@gmail.com">✉ infoutldispatch@gmail.com</a></div><div class="tb r"><span>Dispatch Desk 24/7</span><a class="quote" href="index.html#contact">Get a Free Quote →</a></div></div></div>
+
+<header class="site">
+  <div class="container">
+    <a class="brand" href="index.html"><img src="assets/logo.webp" alt="Ultra Transit Logistics LLC logo"><span class="bt"><b>ULTRA <span>TRANSIT</span></b><small>Logistics LLC</small></span></a>
+    <nav class="main" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="index.html#dispatch">Dispatch</a>
+      <a href="index.html#why">Solutions</a>
+      <a href="commercial-truck-tires.html">Truck Tires</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="btn btn-primary btn-sm nav-cta" href="index.html#onboarding">Onboard Your Truck</a>
+    </nav>
+    <button class="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="page-hero" style="padding:100px 0 110px">
+  <div class="bg" style="background-image:url('https://images.unsplash.com/photo-1766785368863-f2188a8c8b32?w=1800&q=70&auto=format')"></div>
+  <div class="container">
+    <span class="pill"><span class="dot"></span> Official FMCSA SAFER Data</span>
+    <h1>MC / DOT <span style="color:var(--sky)">Carrier Lookup</span></h1>
+    <p>Check any U.S. motor carrier before you haul for them or sign a packet — operating status, authority, insurance on file, fleet size and safety rating, straight from the FMCSA's SAFER system.</p>
+    <div class="seg" role="tablist">
+      <button class="active" data-type="USDOT" type="button">Search by USDOT #</button>
+      <button data-type="MC_MX" type="button">Search by MC / MX #</button>
+    </div>
+    <form class="lookup-box" id="lookupForm">
+      <input id="lookupNum" inputmode="numeric" placeholder="Enter USDOT number" aria-label="Carrier number" required>
+      <button class="btn btn-primary" type="submit">Search Carrier</button>
+    </form>
+    <p class="examples">Numbers only — "MC-" and "USDOT" prefixes are removed automatically. Try: <a data-ex="USDOT:44110">USDOT 44110</a> · <a data-ex="MC_MX:1515">MC 1515</a></p>
+    <p class="examples" style="margin-top:4px">Results open the official FMCSA Company Snapshot in a new tab.</p>
+  </div>
+</section>
+
+<section class="pad">
+  <div class="container grid g2">
+    <div class="card reveal">
+      <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+      <h3 style="font-size:1.4rem">Verify Before You Haul</h3>
+      <p>Make sure the authority is active, insurance is on file and the safety record checks out before you accept a load or sign a carrier packet.</p>
+      <ul class="checks"><li>Operating status &amp; authority type</li><li>BIPD / cargo insurance on file</li><li>Power units, drivers &amp; safety rating</li></ul>
+    </div>
+    <div class="card reveal" style="background:var(--navy);color:#c3cee0">
+      <span class="ic blue"><svg viewBox="0 0 24 24"><path d="M1 6h13v10H1zM14 9h4l3 3v4h-7"/><circle cx="5.5" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg></span>
+      <h3 style="font-size:1.4rem;color:#fff">Authority Active? Let's Get You Loaded.</h3>
+      <p style="margin-bottom:24px">Onboard with Ultra Transit in minutes — W-9, MC authority, NOA and COI uploads are built into the form.</p>
+      <a class="btn btn-light" href="index.html#onboarding">Start Carrier Onboarding →</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site"><div class="container"><div class="copy" style="border:0;margin:0;padding:0"><span>© <span data-year>2026</span> Ultra Transit Logistics LLC</span><span>FMCSA and SAFER are U.S. government systems; Ultra Transit Logistics is not affiliated with FMCSA.</span></div></div></footer>
+<a class="wa-float" href="https://wa.me/923344550042" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 0 1 12 2.2a9.8 9.8 0 0 1 0 19.6zm0-21.6A11.8 11.8 0 0 0 1.8 17.9L.1 24l6.3-1.7A11.8 11.8 0 1 0 12 .2z"/></svg></a>
+<button class="to-top" aria-label="Back to top">↑</button>
+<script src="assets/app.js"></script>
+<script>
+  let type = "USDOT";
+  const input = document.getElementById("lookupNum");
+  document.querySelectorAll(".seg button").forEach((b) =>
+    b.addEventListener("click", () => {
+      type = b.dataset.type;
+      document.querySelectorAll(".seg button").forEach((x) => x.classList.toggle("active", x === b));
+      input.placeholder = type === "USDOT" ? "Enter USDOT number" : "Enter MC / MX number";
+      input.focus();
+    })
+  );
+  function search(t, raw) {
+    const num = String(raw).replace(/\D/g, "");
+    if (!num) { input.focus(); return; }
+    const url = "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot" +
+      "&query_param=" + t + "&query_string=" + num;
+    window.open(url, "_blank", "noopener");
+  }
+  document.getElementById("lookupForm").addEventListener("submit", (e) => { e.preventDefault(); search(type, input.value); });
+  document.querySelectorAll("[data-ex]").forEach((a) =>
+    a.addEventListener("click", () => {
+      const [t, n] = a.dataset.ex.split(":");
+      document.querySelector(`.seg button[data-type="${t}"]`).click();
+      input.value = n;
+      search(t, n);
+    })
+  );
+</script>
+</body>
+</html>
