@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ultra-transit-logistics
+    runtime: static
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
